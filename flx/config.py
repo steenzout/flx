@@ -1,9 +1,9 @@
 """
-.. module:: company.package.config
+.. module:: flx.config
     :platform: Unix
     :synopsis: Configuration utilities.
 
-.. moduleauthor:: Your Name <email address>
+.. moduleauthor:: Pedro Emanuel de Castro Faria Salgado <steenzout@ymail.com>
 """
 
 from __future__ import absolute_import
@@ -18,7 +18,7 @@ except ImportError:
 import logging
 
 
-DEFAULT_CONFIG_FILE = '/etc/package/package.cfg'
+DEFAULT_CONFIG_FILE = '/etc/flx/flx.cfg'
 
 SETTINGS = None
 
